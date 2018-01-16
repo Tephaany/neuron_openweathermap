@@ -1,0 +1,12 @@
+---
+  name: "openweathermap"
+  type: "neuron"
+  author: "Intelora Dev Team"
+
+  intelora_supported_version:
+    - 0.4
+    - 0.5
+
+  tags:
+    - "openweathermap"
+    - "weather"

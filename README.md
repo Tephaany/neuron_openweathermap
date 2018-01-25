@@ -1,8 +1,9 @@
-# OpenWeatherMap API
+# intelora-OpenWeatherMap_API
+A Neuron that gives the weather for today and tomorrow, including other related data such as humidity, temperature, and etc. for a specific location
 
 ## Synopsis 
 
-Give the today and tomorrow weather with the related data (humidity, temperature, etc ...) for a given location. 
+Make Intelora give you either the weather today or tomorrow, with the related data (humidity, temperature, etc ...) for a given location. 
 
 ## Installation
 ```
@@ -52,6 +53,41 @@ intelora install --git-url https://github.com/intelora/neuron_openweathermap.git
 | snow_tomorrow               | Tomorrow : Volume of snow                  | float  | 0                      |
 | rain_tomorrow               | Tomorrow : Rain volume                     | float  | 0                      |
 | clouds_coverage_tomorrow    | Tomorrow : % Cloud coverage                | float  | 65                     |
+
+## Limitation
+
+-Note: You need to create a free account on openweathermap.org to get your API key.
+-Available Return Values:
+The current location
+Today : The weather sentence
+Today : The sunset time (iso)
+Today : The sunrise time (iso)
+Today : Average temperature
+Today : Max temperature
+Today : Min temperatue
+Today : Pressure
+Today : Pressure at the Sea level
+Today : % of humidity
+Today : Direction of the wind in degree
+Today : Wind speed
+Today : Volume of snow
+Today : Rain volume
+Today : % Cloud coverage
+Tomorrow : The weather sentence
+Tomorrow : The sunset time (iso)
+Tomorrow : The sunrise time (iso)
+Tomorrow : Average temperature	
+Tomorrow : Max temperature
+Tomorrow : Min temperatue
+Tomorrow : Pressure	
+Tomorrow : Pressure at the Sea level
+Tomorrow : % of humidity	
+Tomorrow : Direction of the wind in degree	
+Tomorrow : Wind speed	
+Tomorrow : Volume of snow	
+Tomorrow : Rain volume	
+Tomorrow : % Cloud coverage
+
 
 ## Synapses example
 
